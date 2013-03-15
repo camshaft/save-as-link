@@ -1,0 +1,15 @@
+{
+  "name": "filesaver-link",
+  "repo": "CamShaft/filesaver-link",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "CamShaft/filesaver": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}

@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <script type="text/javascript" src="../build/build.js"></script>
+  <script type="text/javascript">
+    require("filesaver-link");
+    var save = require("CamShaft-filesaver");
+
+    var blob = new Blob(["Hello, world!"], {type: "text/plain;charset=utf-8"});
+
+    save(blob, "test.txt");
+
+  </script>
+</body>
+</html>
